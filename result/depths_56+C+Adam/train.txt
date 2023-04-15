@@ -1,0 +1,801 @@
+[04/06 08:37:27]: Namespace(base_channels=16, batch_size=128, block_type='basic', depths=56, epochs=400, input_shape=[1, 3, 32, 32], learning_rate=0.1, lr_decay=0.1, milestones='[120, 240]', momentum=0.9, n_classes=10, num_workers=6, result_path='./result/depths_56+C+Adam', seed=17, weight_decay=0.0001)
+[04/06 08:37:41]: epoch: 1, train_loss: 2.260703, train_accuracy: 0.1418
+[04/06 08:37:41]: Epoch Test: 1, Current test accuracy: 0.2132, Best test accuracy in 1: 0.2132
+[04/06 08:37:53]: epoch: 2, train_loss: 1.862334, train_accuracy: 0.2812
+[04/06 08:37:54]: Epoch Test: 2, Current test accuracy: 0.2356, Best test accuracy in 2: 0.2356
+[04/06 08:38:05]: epoch: 3, train_loss: 1.686991, train_accuracy: 0.3563
+[04/06 08:38:06]: Epoch Test: 3, Current test accuracy: 0.3763, Best test accuracy in 3: 0.3763
+[04/06 08:38:17]: epoch: 4, train_loss: 1.570765, train_accuracy: 0.4103
+[04/06 08:38:18]: Epoch Test: 4, Current test accuracy: 0.4264, Best test accuracy in 4: 0.4264
+[04/06 08:38:29]: epoch: 5, train_loss: 1.494448, train_accuracy: 0.4445
+[04/06 08:38:30]: Epoch Test: 5, Current test accuracy: 0.4187, Best test accuracy in 4: 0.4264
+[04/06 08:38:42]: epoch: 6, train_loss: 1.408240, train_accuracy: 0.4805
+[04/06 08:38:42]: Epoch Test: 6, Current test accuracy: 0.5206, Best test accuracy in 6: 0.5206
+[04/06 08:38:54]: epoch: 7, train_loss: 1.293165, train_accuracy: 0.5283
+[04/06 08:38:55]: Epoch Test: 7, Current test accuracy: 0.5003, Best test accuracy in 6: 0.5206
+[04/06 08:39:06]: epoch: 8, train_loss: 1.178828, train_accuracy: 0.5740
+[04/06 08:39:07]: Epoch Test: 8, Current test accuracy: 0.5962, Best test accuracy in 8: 0.5962
+[04/06 08:39:18]: epoch: 9, train_loss: 1.103564, train_accuracy: 0.6044
+[04/06 08:39:19]: Epoch Test: 9, Current test accuracy: 0.5879, Best test accuracy in 8: 0.5962
+[04/06 08:39:30]: epoch: 10, train_loss: 1.040504, train_accuracy: 0.6281
+[04/06 08:39:31]: Epoch Test: 10, Current test accuracy: 0.6096, Best test accuracy in 10: 0.6096
+[04/06 08:39:43]: epoch: 11, train_loss: 0.989716, train_accuracy: 0.6497
+[04/06 08:39:43]: Epoch Test: 11, Current test accuracy: 0.5292, Best test accuracy in 10: 0.6096
+[04/06 08:39:55]: epoch: 12, train_loss: 0.941205, train_accuracy: 0.6670
+[04/06 08:39:55]: Epoch Test: 12, Current test accuracy: 0.6438, Best test accuracy in 12: 0.6438
+[04/06 08:40:07]: epoch: 13, train_loss: 0.903570, train_accuracy: 0.6808
+[04/06 08:40:08]: Epoch Test: 13, Current test accuracy: 0.6369, Best test accuracy in 12: 0.6438
+[04/06 08:40:19]: epoch: 14, train_loss: 0.860556, train_accuracy: 0.6975
+[04/06 08:40:20]: Epoch Test: 14, Current test accuracy: 0.6721, Best test accuracy in 14: 0.6721
+[04/06 08:40:31]: epoch: 15, train_loss: 0.829376, train_accuracy: 0.7107
+[04/06 08:40:32]: Epoch Test: 15, Current test accuracy: 0.7107, Best test accuracy in 15: 0.7107
+[04/06 08:40:43]: epoch: 16, train_loss: 0.800618, train_accuracy: 0.7214
+[04/06 08:40:44]: Epoch Test: 16, Current test accuracy: 0.7223, Best test accuracy in 16: 0.7223
+[04/06 08:40:56]: epoch: 17, train_loss: 0.772904, train_accuracy: 0.7303
+[04/06 08:40:56]: Epoch Test: 17, Current test accuracy: 0.7034, Best test accuracy in 16: 0.7223
+[04/06 08:41:08]: epoch: 18, train_loss: 0.744515, train_accuracy: 0.7421
+[04/06 08:41:08]: Epoch Test: 18, Current test accuracy: 0.6763, Best test accuracy in 16: 0.7223
+[04/06 08:41:20]: epoch: 19, train_loss: 0.722589, train_accuracy: 0.7511
+[04/06 08:41:21]: Epoch Test: 19, Current test accuracy: 0.7365, Best test accuracy in 19: 0.7365
+[04/06 08:41:32]: epoch: 20, train_loss: 0.698796, train_accuracy: 0.7605
+[04/06 08:41:33]: Epoch Test: 20, Current test accuracy: 0.7592, Best test accuracy in 20: 0.7592
+[04/06 08:41:44]: epoch: 21, train_loss: 0.679609, train_accuracy: 0.7667
+[04/06 08:41:45]: Epoch Test: 21, Current test accuracy: 0.6973, Best test accuracy in 20: 0.7592
+[04/06 08:41:56]: epoch: 22, train_loss: 0.659813, train_accuracy: 0.7744
+[04/06 08:41:57]: Epoch Test: 22, Current test accuracy: 0.7408, Best test accuracy in 20: 0.7592
+[04/06 08:42:08]: epoch: 23, train_loss: 0.638945, train_accuracy: 0.7819
+[04/06 08:42:09]: Epoch Test: 23, Current test accuracy: 0.7813, Best test accuracy in 23: 0.7813
+[04/06 08:42:21]: epoch: 24, train_loss: 0.621306, train_accuracy: 0.7883
+[04/06 08:42:22]: Epoch Test: 24, Current test accuracy: 0.7637, Best test accuracy in 23: 0.7813
+[04/06 08:42:33]: epoch: 25, train_loss: 0.606843, train_accuracy: 0.7928
+[04/06 08:42:34]: Epoch Test: 25, Current test accuracy: 0.7533, Best test accuracy in 23: 0.7813
+[04/06 08:42:45]: epoch: 26, train_loss: 0.595240, train_accuracy: 0.7972
+[04/06 08:42:46]: Epoch Test: 26, Current test accuracy: 0.7564, Best test accuracy in 23: 0.7813
+[04/06 08:42:57]: epoch: 27, train_loss: 0.575562, train_accuracy: 0.8026
+[04/06 08:42:58]: Epoch Test: 27, Current test accuracy: 0.7859, Best test accuracy in 27: 0.7859
+[04/06 08:43:09]: epoch: 28, train_loss: 0.571127, train_accuracy: 0.8061
+[04/06 08:43:10]: Epoch Test: 28, Current test accuracy: 0.7910, Best test accuracy in 28: 0.7910
+[04/06 08:43:22]: epoch: 29, train_loss: 0.555305, train_accuracy: 0.8105
+[04/06 08:43:23]: Epoch Test: 29, Current test accuracy: 0.7720, Best test accuracy in 28: 0.7910
+[04/06 08:43:34]: epoch: 30, train_loss: 0.544203, train_accuracy: 0.8145
+[04/06 08:43:35]: Epoch Test: 30, Current test accuracy: 0.7963, Best test accuracy in 30: 0.7963
+[04/06 08:43:46]: epoch: 31, train_loss: 0.533359, train_accuracy: 0.8190
+[04/06 08:43:47]: Epoch Test: 31, Current test accuracy: 0.7778, Best test accuracy in 30: 0.7963
+[04/06 08:43:59]: epoch: 32, train_loss: 0.531252, train_accuracy: 0.8208
+[04/06 08:44:00]: Epoch Test: 32, Current test accuracy: 0.7729, Best test accuracy in 30: 0.7963
+[04/06 08:44:11]: epoch: 33, train_loss: 0.519215, train_accuracy: 0.8236
+[04/06 08:44:12]: Epoch Test: 33, Current test accuracy: 0.8067, Best test accuracy in 33: 0.8067
+[04/06 08:44:23]: epoch: 34, train_loss: 0.503740, train_accuracy: 0.8291
+[04/06 08:44:24]: Epoch Test: 34, Current test accuracy: 0.7999, Best test accuracy in 33: 0.8067
+[04/06 08:44:36]: epoch: 35, train_loss: 0.502670, train_accuracy: 0.8287
+[04/06 08:44:36]: Epoch Test: 35, Current test accuracy: 0.8137, Best test accuracy in 35: 0.8137
+[04/06 08:44:48]: epoch: 36, train_loss: 0.492589, train_accuracy: 0.8325
+[04/06 08:44:49]: Epoch Test: 36, Current test accuracy: 0.7785, Best test accuracy in 35: 0.8137
+[04/06 08:45:00]: epoch: 37, train_loss: 0.475941, train_accuracy: 0.8399
+[04/06 08:45:01]: Epoch Test: 37, Current test accuracy: 0.8086, Best test accuracy in 35: 0.8137
+[04/06 08:45:12]: epoch: 38, train_loss: 0.468861, train_accuracy: 0.8400
+[04/06 08:45:13]: Epoch Test: 38, Current test accuracy: 0.8126, Best test accuracy in 35: 0.8137
+[04/06 08:45:25]: epoch: 39, train_loss: 0.469446, train_accuracy: 0.8415
+[04/06 08:45:25]: Epoch Test: 39, Current test accuracy: 0.8157, Best test accuracy in 39: 0.8157
+[04/06 08:45:37]: epoch: 40, train_loss: 0.456568, train_accuracy: 0.8438
+[04/06 08:45:38]: Epoch Test: 40, Current test accuracy: 0.7994, Best test accuracy in 39: 0.8157
+[04/06 08:45:49]: epoch: 41, train_loss: 0.456338, train_accuracy: 0.8466
+[04/06 08:45:50]: Epoch Test: 41, Current test accuracy: 0.8117, Best test accuracy in 39: 0.8157
+[04/06 08:46:01]: epoch: 42, train_loss: 0.453005, train_accuracy: 0.8465
+[04/06 08:46:02]: Epoch Test: 42, Current test accuracy: 0.8145, Best test accuracy in 39: 0.8157
+[04/06 08:46:13]: epoch: 43, train_loss: 0.434368, train_accuracy: 0.8539
+[04/06 08:46:14]: Epoch Test: 43, Current test accuracy: 0.8147, Best test accuracy in 39: 0.8157
+[04/06 08:46:25]: epoch: 44, train_loss: 0.434255, train_accuracy: 0.8528
+[04/06 08:46:26]: Epoch Test: 44, Current test accuracy: 0.8161, Best test accuracy in 44: 0.8161
+[04/06 08:46:38]: epoch: 45, train_loss: 0.425901, train_accuracy: 0.8560
+[04/06 08:46:38]: Epoch Test: 45, Current test accuracy: 0.8118, Best test accuracy in 44: 0.8161
+[04/06 08:46:50]: epoch: 46, train_loss: 0.421961, train_accuracy: 0.8576
+[04/06 08:46:51]: Epoch Test: 46, Current test accuracy: 0.8207, Best test accuracy in 46: 0.8207
+[04/06 08:47:02]: epoch: 47, train_loss: 0.419486, train_accuracy: 0.8585
+[04/06 08:47:03]: Epoch Test: 47, Current test accuracy: 0.7809, Best test accuracy in 46: 0.8207
+[04/06 08:47:15]: epoch: 48, train_loss: 0.404815, train_accuracy: 0.8643
+[04/06 08:47:15]: Epoch Test: 48, Current test accuracy: 0.8087, Best test accuracy in 46: 0.8207
+[04/06 08:47:27]: epoch: 49, train_loss: 0.414453, train_accuracy: 0.8598
+[04/06 08:47:27]: Epoch Test: 49, Current test accuracy: 0.8069, Best test accuracy in 46: 0.8207
+[04/06 08:47:39]: epoch: 50, train_loss: 0.406124, train_accuracy: 0.8630
+[04/06 08:47:40]: Epoch Test: 50, Current test accuracy: 0.8096, Best test accuracy in 46: 0.8207
+[04/06 08:47:51]: epoch: 51, train_loss: 0.397233, train_accuracy: 0.8666
+[04/06 08:47:52]: Epoch Test: 51, Current test accuracy: 0.8080, Best test accuracy in 46: 0.8207
+[04/06 08:48:04]: epoch: 52, train_loss: 0.395608, train_accuracy: 0.8684
+[04/06 08:48:04]: Epoch Test: 52, Current test accuracy: 0.8238, Best test accuracy in 52: 0.8238
+[04/06 08:48:16]: epoch: 53, train_loss: 0.384758, train_accuracy: 0.8709
+[04/06 08:48:17]: Epoch Test: 53, Current test accuracy: 0.8444, Best test accuracy in 53: 0.8444
+[04/06 08:48:28]: epoch: 54, train_loss: 0.382435, train_accuracy: 0.8710
+[04/06 08:48:29]: Epoch Test: 54, Current test accuracy: 0.8208, Best test accuracy in 53: 0.8444
+[04/06 08:48:40]: epoch: 55, train_loss: 0.381211, train_accuracy: 0.8722
+[04/06 08:48:41]: Epoch Test: 55, Current test accuracy: 0.8332, Best test accuracy in 53: 0.8444
+[04/06 08:48:52]: epoch: 56, train_loss: 0.370775, train_accuracy: 0.8753
+[04/06 08:48:53]: Epoch Test: 56, Current test accuracy: 0.8192, Best test accuracy in 53: 0.8444
+[04/06 08:49:05]: epoch: 57, train_loss: 0.376265, train_accuracy: 0.8728
+[04/06 08:49:05]: Epoch Test: 57, Current test accuracy: 0.8317, Best test accuracy in 53: 0.8444
+[04/06 08:49:17]: epoch: 58, train_loss: 0.366086, train_accuracy: 0.8752
+[04/06 08:49:18]: Epoch Test: 58, Current test accuracy: 0.8387, Best test accuracy in 53: 0.8444
+[04/06 08:49:29]: epoch: 59, train_loss: 0.363004, train_accuracy: 0.8787
+[04/06 08:49:30]: Epoch Test: 59, Current test accuracy: 0.8236, Best test accuracy in 53: 0.8444
+[04/06 08:49:41]: epoch: 60, train_loss: 0.361392, train_accuracy: 0.8778
+[04/06 08:49:42]: Epoch Test: 60, Current test accuracy: 0.7978, Best test accuracy in 53: 0.8444
+[04/06 08:49:54]: epoch: 61, train_loss: 0.353866, train_accuracy: 0.8804
+[04/06 08:49:54]: Epoch Test: 61, Current test accuracy: 0.8284, Best test accuracy in 53: 0.8444
+[04/06 08:50:06]: epoch: 62, train_loss: 0.346265, train_accuracy: 0.8830
+[04/06 08:50:06]: Epoch Test: 62, Current test accuracy: 0.8547, Best test accuracy in 62: 0.8547
+[04/06 08:50:18]: epoch: 63, train_loss: 0.344098, train_accuracy: 0.8838
+[04/06 08:50:19]: Epoch Test: 63, Current test accuracy: 0.8134, Best test accuracy in 62: 0.8547
+[04/06 08:50:30]: epoch: 64, train_loss: 0.346163, train_accuracy: 0.8824
+[04/06 08:50:31]: Epoch Test: 64, Current test accuracy: 0.8400, Best test accuracy in 62: 0.8547
+[04/06 08:50:42]: epoch: 65, train_loss: 0.343852, train_accuracy: 0.8824
+[04/06 08:50:43]: Epoch Test: 65, Current test accuracy: 0.8579, Best test accuracy in 65: 0.8579
+[04/06 08:50:55]: epoch: 66, train_loss: 0.333613, train_accuracy: 0.8877
+[04/06 08:50:55]: Epoch Test: 66, Current test accuracy: 0.8428, Best test accuracy in 65: 0.8579
+[04/06 08:51:07]: epoch: 67, train_loss: 0.331367, train_accuracy: 0.8892
+[04/06 08:51:08]: Epoch Test: 67, Current test accuracy: 0.8358, Best test accuracy in 65: 0.8579
+[04/06 08:51:19]: epoch: 68, train_loss: 0.326346, train_accuracy: 0.8895
+[04/06 08:51:20]: Epoch Test: 68, Current test accuracy: 0.8265, Best test accuracy in 65: 0.8579
+[04/06 08:51:31]: epoch: 69, train_loss: 0.326091, train_accuracy: 0.8902
+[04/06 08:51:32]: Epoch Test: 69, Current test accuracy: 0.8194, Best test accuracy in 65: 0.8579
+[04/06 08:51:43]: epoch: 70, train_loss: 0.316893, train_accuracy: 0.8921
+[04/06 08:51:44]: Epoch Test: 70, Current test accuracy: 0.8318, Best test accuracy in 65: 0.8579
+[04/06 08:51:55]: epoch: 71, train_loss: 0.323190, train_accuracy: 0.8906
+[04/06 08:51:56]: Epoch Test: 71, Current test accuracy: 0.8308, Best test accuracy in 65: 0.8579
+[04/06 08:52:08]: epoch: 72, train_loss: 0.319423, train_accuracy: 0.8919
+[04/06 08:52:08]: Epoch Test: 72, Current test accuracy: 0.8356, Best test accuracy in 65: 0.8579
+[04/06 08:52:20]: epoch: 73, train_loss: 0.316466, train_accuracy: 0.8933
+[04/06 08:52:21]: Epoch Test: 73, Current test accuracy: 0.8448, Best test accuracy in 65: 0.8579
+[04/06 08:52:32]: epoch: 74, train_loss: 0.313601, train_accuracy: 0.8945
+[04/06 08:52:33]: Epoch Test: 74, Current test accuracy: 0.8422, Best test accuracy in 65: 0.8579
+[04/06 08:52:44]: epoch: 75, train_loss: 0.306244, train_accuracy: 0.8955
+[04/06 08:52:45]: Epoch Test: 75, Current test accuracy: 0.8360, Best test accuracy in 65: 0.8579
+[04/06 08:52:57]: epoch: 76, train_loss: 0.303141, train_accuracy: 0.8962
+[04/06 08:52:57]: Epoch Test: 76, Current test accuracy: 0.8281, Best test accuracy in 65: 0.8579
+[04/06 08:53:09]: epoch: 77, train_loss: 0.305798, train_accuracy: 0.8972
+[04/06 08:53:10]: Epoch Test: 77, Current test accuracy: 0.8504, Best test accuracy in 65: 0.8579
+[04/06 08:53:21]: epoch: 78, train_loss: 0.302020, train_accuracy: 0.8985
+[04/06 08:53:22]: Epoch Test: 78, Current test accuracy: 0.8476, Best test accuracy in 65: 0.8579
+[04/06 08:53:33]: epoch: 79, train_loss: 0.292288, train_accuracy: 0.9005
+[04/06 08:53:34]: Epoch Test: 79, Current test accuracy: 0.8606, Best test accuracy in 79: 0.8606
+[04/06 08:53:45]: epoch: 80, train_loss: 0.293883, train_accuracy: 0.9005
+[04/06 08:53:46]: Epoch Test: 80, Current test accuracy: 0.8383, Best test accuracy in 79: 0.8606
+[04/06 08:53:58]: epoch: 81, train_loss: 0.295984, train_accuracy: 0.9002
+[04/06 08:53:58]: Epoch Test: 81, Current test accuracy: 0.8475, Best test accuracy in 79: 0.8606
+[04/06 08:54:10]: epoch: 82, train_loss: 0.302249, train_accuracy: 0.8978
+[04/06 08:54:11]: Epoch Test: 82, Current test accuracy: 0.8396, Best test accuracy in 79: 0.8606
+[04/06 08:54:22]: epoch: 83, train_loss: 0.288098, train_accuracy: 0.9020
+[04/06 08:54:23]: Epoch Test: 83, Current test accuracy: 0.8519, Best test accuracy in 79: 0.8606
+[04/06 08:54:34]: epoch: 84, train_loss: 0.281525, train_accuracy: 0.9039
+[04/06 08:54:35]: Epoch Test: 84, Current test accuracy: 0.8470, Best test accuracy in 79: 0.8606
+[04/06 08:54:46]: epoch: 85, train_loss: 0.286271, train_accuracy: 0.9025
+[04/06 08:54:47]: Epoch Test: 85, Current test accuracy: 0.8475, Best test accuracy in 79: 0.8606
+[04/06 08:54:59]: epoch: 86, train_loss: 0.284709, train_accuracy: 0.9043
+[04/06 08:54:59]: Epoch Test: 86, Current test accuracy: 0.8354, Best test accuracy in 79: 0.8606
+[04/06 08:55:11]: epoch: 87, train_loss: 0.282100, train_accuracy: 0.9043
+[04/06 08:55:12]: Epoch Test: 87, Current test accuracy: 0.8500, Best test accuracy in 79: 0.8606
+[04/06 08:55:23]: epoch: 88, train_loss: 0.273558, train_accuracy: 0.9077
+[04/06 08:55:24]: Epoch Test: 88, Current test accuracy: 0.8615, Best test accuracy in 88: 0.8615
+[04/06 08:55:35]: epoch: 89, train_loss: 0.273804, train_accuracy: 0.9067
+[04/06 08:55:36]: Epoch Test: 89, Current test accuracy: 0.8689, Best test accuracy in 89: 0.8689
+[04/06 08:55:47]: epoch: 90, train_loss: 0.269118, train_accuracy: 0.9092
+[04/06 08:55:48]: Epoch Test: 90, Current test accuracy: 0.8585, Best test accuracy in 89: 0.8689
+[04/06 08:56:00]: epoch: 91, train_loss: 0.273203, train_accuracy: 0.9076
+[04/06 08:56:00]: Epoch Test: 91, Current test accuracy: 0.8650, Best test accuracy in 89: 0.8689
+[04/06 08:56:12]: epoch: 92, train_loss: 0.270936, train_accuracy: 0.9091
+[04/06 08:56:12]: Epoch Test: 92, Current test accuracy: 0.8461, Best test accuracy in 89: 0.8689
+[04/06 08:56:24]: epoch: 93, train_loss: 0.264819, train_accuracy: 0.9103
+[04/06 08:56:25]: Epoch Test: 93, Current test accuracy: 0.8605, Best test accuracy in 89: 0.8689
+[04/06 08:56:36]: epoch: 94, train_loss: 0.269680, train_accuracy: 0.9092
+[04/06 08:56:37]: Epoch Test: 94, Current test accuracy: 0.8525, Best test accuracy in 89: 0.8689
+[04/06 08:56:48]: epoch: 95, train_loss: 0.265949, train_accuracy: 0.9102
+[04/06 08:56:49]: Epoch Test: 95, Current test accuracy: 0.8622, Best test accuracy in 89: 0.8689
+[04/06 08:57:00]: epoch: 96, train_loss: 0.259864, train_accuracy: 0.9120
+[04/06 08:57:01]: Epoch Test: 96, Current test accuracy: 0.8626, Best test accuracy in 89: 0.8689
+[04/06 08:57:13]: epoch: 97, train_loss: 0.255015, train_accuracy: 0.9139
+[04/06 08:57:13]: Epoch Test: 97, Current test accuracy: 0.8396, Best test accuracy in 89: 0.8689
+[04/06 08:57:25]: epoch: 98, train_loss: 0.254381, train_accuracy: 0.9138
+[04/06 08:57:25]: Epoch Test: 98, Current test accuracy: 0.8384, Best test accuracy in 89: 0.8689
+[04/06 08:57:37]: epoch: 99, train_loss: 0.253083, train_accuracy: 0.9144
+[04/06 08:57:38]: Epoch Test: 99, Current test accuracy: 0.8656, Best test accuracy in 89: 0.8689
+[04/06 08:57:49]: epoch: 100, train_loss: 0.261271, train_accuracy: 0.9117
+[04/06 08:57:50]: Epoch Test: 100, Current test accuracy: 0.8523, Best test accuracy in 89: 0.8689
+[04/06 08:58:01]: epoch: 101, train_loss: 0.249001, train_accuracy: 0.9149
+[04/06 08:58:02]: Epoch Test: 101, Current test accuracy: 0.8580, Best test accuracy in 89: 0.8689
+[04/06 08:58:14]: epoch: 102, train_loss: 0.249845, train_accuracy: 0.9157
+[04/06 08:58:14]: Epoch Test: 102, Current test accuracy: 0.8635, Best test accuracy in 89: 0.8689
+[04/06 08:58:26]: epoch: 103, train_loss: 0.246964, train_accuracy: 0.9157
+[04/06 08:58:27]: Epoch Test: 103, Current test accuracy: 0.8644, Best test accuracy in 89: 0.8689
+[04/06 08:58:38]: epoch: 104, train_loss: 0.252354, train_accuracy: 0.9138
+[04/06 08:58:39]: Epoch Test: 104, Current test accuracy: 0.8473, Best test accuracy in 89: 0.8689
+[04/06 08:58:50]: epoch: 105, train_loss: 0.250319, train_accuracy: 0.9151
+[04/06 08:58:51]: Epoch Test: 105, Current test accuracy: 0.8602, Best test accuracy in 89: 0.8689
+[04/06 08:59:03]: epoch: 106, train_loss: 0.241414, train_accuracy: 0.9188
+[04/06 08:59:03]: Epoch Test: 106, Current test accuracy: 0.8314, Best test accuracy in 89: 0.8689
+[04/06 08:59:15]: epoch: 107, train_loss: 0.242045, train_accuracy: 0.9171
+[04/06 08:59:16]: Epoch Test: 107, Current test accuracy: 0.8581, Best test accuracy in 89: 0.8689
+[04/06 08:59:27]: epoch: 108, train_loss: 0.238339, train_accuracy: 0.9192
+[04/06 08:59:28]: Epoch Test: 108, Current test accuracy: 0.8569, Best test accuracy in 89: 0.8689
+[04/06 08:59:39]: epoch: 109, train_loss: 0.240262, train_accuracy: 0.9199
+[04/06 08:59:40]: Epoch Test: 109, Current test accuracy: 0.8651, Best test accuracy in 89: 0.8689
+[04/06 08:59:51]: epoch: 110, train_loss: 0.237435, train_accuracy: 0.9196
+[04/06 08:59:52]: Epoch Test: 110, Current test accuracy: 0.8543, Best test accuracy in 89: 0.8689
+[04/06 09:00:03]: epoch: 111, train_loss: 0.239197, train_accuracy: 0.9192
+[04/06 09:00:04]: Epoch Test: 111, Current test accuracy: 0.8604, Best test accuracy in 89: 0.8689
+[04/06 09:00:16]: epoch: 112, train_loss: 0.233489, train_accuracy: 0.9194
+[04/06 09:00:16]: Epoch Test: 112, Current test accuracy: 0.8601, Best test accuracy in 89: 0.8689
+[04/06 09:00:28]: epoch: 113, train_loss: 0.238071, train_accuracy: 0.9184
+[04/06 09:00:29]: Epoch Test: 113, Current test accuracy: 0.8604, Best test accuracy in 89: 0.8689
+[04/06 09:00:40]: epoch: 114, train_loss: 0.232621, train_accuracy: 0.9219
+[04/06 09:00:41]: Epoch Test: 114, Current test accuracy: 0.8695, Best test accuracy in 114: 0.8695
+[04/06 09:00:52]: epoch: 115, train_loss: 0.231457, train_accuracy: 0.9214
+[04/06 09:00:53]: Epoch Test: 115, Current test accuracy: 0.8523, Best test accuracy in 114: 0.8695
+[04/06 09:01:05]: epoch: 116, train_loss: 0.230734, train_accuracy: 0.9231
+[04/06 09:01:05]: Epoch Test: 116, Current test accuracy: 0.8649, Best test accuracy in 114: 0.8695
+[04/06 09:01:17]: epoch: 117, train_loss: 0.222144, train_accuracy: 0.9247
+[04/06 09:01:18]: Epoch Test: 117, Current test accuracy: 0.8606, Best test accuracy in 114: 0.8695
+[04/06 09:01:29]: epoch: 118, train_loss: 0.226533, train_accuracy: 0.9239
+[04/06 09:01:30]: Epoch Test: 118, Current test accuracy: 0.8642, Best test accuracy in 114: 0.8695
+[04/06 09:01:41]: epoch: 119, train_loss: 0.233306, train_accuracy: 0.9212
+[04/06 09:01:42]: Epoch Test: 119, Current test accuracy: 0.8517, Best test accuracy in 114: 0.8695
+[04/06 09:01:54]: epoch: 120, train_loss: 0.226298, train_accuracy: 0.9232
+[04/06 09:01:54]: Epoch Test: 120, Current test accuracy: 0.8607, Best test accuracy in 114: 0.8695
+[04/06 09:02:06]: epoch: 121, train_loss: 0.223396, train_accuracy: 0.9247
+[04/06 09:02:07]: Epoch Test: 121, Current test accuracy: 0.8610, Best test accuracy in 114: 0.8695
+[04/06 09:02:18]: epoch: 122, train_loss: 0.217521, train_accuracy: 0.9251
+[04/06 09:02:19]: Epoch Test: 122, Current test accuracy: 0.8587, Best test accuracy in 114: 0.8695
+[04/06 09:02:30]: epoch: 123, train_loss: 0.222523, train_accuracy: 0.9254
+[04/06 09:02:31]: Epoch Test: 123, Current test accuracy: 0.8609, Best test accuracy in 114: 0.8695
+[04/06 09:02:43]: epoch: 124, train_loss: 0.218181, train_accuracy: 0.9259
+[04/06 09:02:43]: Epoch Test: 124, Current test accuracy: 0.8710, Best test accuracy in 124: 0.8710
+[04/06 09:02:55]: epoch: 125, train_loss: 0.220968, train_accuracy: 0.9252
+[04/06 09:02:55]: Epoch Test: 125, Current test accuracy: 0.8373, Best test accuracy in 124: 0.8710
+[04/06 09:03:07]: epoch: 126, train_loss: 0.214586, train_accuracy: 0.9266
+[04/06 09:03:08]: Epoch Test: 126, Current test accuracy: 0.8599, Best test accuracy in 124: 0.8710
+[04/06 09:03:19]: epoch: 127, train_loss: 0.218584, train_accuracy: 0.9256
+[04/06 09:03:20]: Epoch Test: 127, Current test accuracy: 0.8598, Best test accuracy in 124: 0.8710
+[04/06 09:03:31]: epoch: 128, train_loss: 0.211989, train_accuracy: 0.9274
+[04/06 09:03:32]: Epoch Test: 128, Current test accuracy: 0.8498, Best test accuracy in 124: 0.8710
+[04/06 09:03:44]: epoch: 129, train_loss: 0.210424, train_accuracy: 0.9287
+[04/06 09:03:44]: Epoch Test: 129, Current test accuracy: 0.8474, Best test accuracy in 124: 0.8710
+[04/06 09:03:56]: epoch: 130, train_loss: 0.209044, train_accuracy: 0.9295
+[04/06 09:03:57]: Epoch Test: 130, Current test accuracy: 0.8658, Best test accuracy in 124: 0.8710
+[04/06 09:04:08]: epoch: 131, train_loss: 0.209533, train_accuracy: 0.9299
+[04/06 09:04:09]: Epoch Test: 131, Current test accuracy: 0.8627, Best test accuracy in 124: 0.8710
+[04/06 09:04:20]: epoch: 132, train_loss: 0.207436, train_accuracy: 0.9306
+[04/06 09:04:21]: Epoch Test: 132, Current test accuracy: 0.8595, Best test accuracy in 124: 0.8710
+[04/06 09:04:32]: epoch: 133, train_loss: 0.208343, train_accuracy: 0.9295
+[04/06 09:04:33]: Epoch Test: 133, Current test accuracy: 0.8645, Best test accuracy in 124: 0.8710
+[04/06 09:04:45]: epoch: 134, train_loss: 0.210376, train_accuracy: 0.9288
+[04/06 09:04:45]: Epoch Test: 134, Current test accuracy: 0.8658, Best test accuracy in 124: 0.8710
+[04/06 09:04:57]: epoch: 135, train_loss: 0.205573, train_accuracy: 0.9300
+[04/06 09:04:58]: Epoch Test: 135, Current test accuracy: 0.8651, Best test accuracy in 124: 0.8710
+[04/06 09:05:09]: epoch: 136, train_loss: 0.206205, train_accuracy: 0.9299
+[04/06 09:05:10]: Epoch Test: 136, Current test accuracy: 0.8598, Best test accuracy in 124: 0.8710
+[04/06 09:05:21]: epoch: 137, train_loss: 0.201990, train_accuracy: 0.9318
+[04/06 09:05:22]: Epoch Test: 137, Current test accuracy: 0.8577, Best test accuracy in 124: 0.8710
+[04/06 09:05:34]: epoch: 138, train_loss: 0.201555, train_accuracy: 0.9307
+[04/06 09:05:34]: Epoch Test: 138, Current test accuracy: 0.8656, Best test accuracy in 124: 0.8710
+[04/06 09:05:46]: epoch: 139, train_loss: 0.200372, train_accuracy: 0.9326
+[04/06 09:05:46]: Epoch Test: 139, Current test accuracy: 0.8653, Best test accuracy in 124: 0.8710
+[04/06 09:05:58]: epoch: 140, train_loss: 0.197430, train_accuracy: 0.9331
+[04/06 09:05:59]: Epoch Test: 140, Current test accuracy: 0.8655, Best test accuracy in 124: 0.8710
+[04/06 09:06:10]: epoch: 141, train_loss: 0.194140, train_accuracy: 0.9352
+[04/06 09:06:11]: Epoch Test: 141, Current test accuracy: 0.8697, Best test accuracy in 124: 0.8710
+[04/06 09:06:22]: epoch: 142, train_loss: 0.196900, train_accuracy: 0.9334
+[04/06 09:06:23]: Epoch Test: 142, Current test accuracy: 0.8453, Best test accuracy in 124: 0.8710
+[04/06 09:06:35]: epoch: 143, train_loss: 0.199616, train_accuracy: 0.9320
+[04/06 09:06:35]: Epoch Test: 143, Current test accuracy: 0.8657, Best test accuracy in 124: 0.8710
+[04/06 09:06:47]: epoch: 144, train_loss: 0.193596, train_accuracy: 0.9332
+[04/06 09:06:48]: Epoch Test: 144, Current test accuracy: 0.8480, Best test accuracy in 124: 0.8710
+[04/06 09:06:59]: epoch: 145, train_loss: 0.198303, train_accuracy: 0.9320
+[04/06 09:07:00]: Epoch Test: 145, Current test accuracy: 0.8443, Best test accuracy in 124: 0.8710
+[04/06 09:07:11]: epoch: 146, train_loss: 0.191796, train_accuracy: 0.9345
+[04/06 09:07:12]: Epoch Test: 146, Current test accuracy: 0.8727, Best test accuracy in 146: 0.8727
+[04/06 09:07:24]: epoch: 147, train_loss: 0.190525, train_accuracy: 0.9342
+[04/06 09:07:25]: Epoch Test: 147, Current test accuracy: 0.8675, Best test accuracy in 146: 0.8727
+[04/06 09:07:36]: epoch: 148, train_loss: 0.183418, train_accuracy: 0.9380
+[04/06 09:07:37]: Epoch Test: 148, Current test accuracy: 0.8734, Best test accuracy in 148: 0.8734
+[04/06 09:07:48]: epoch: 149, train_loss: 0.189991, train_accuracy: 0.9355
+[04/06 09:07:49]: Epoch Test: 149, Current test accuracy: 0.8663, Best test accuracy in 148: 0.8734
+[04/06 09:08:00]: epoch: 150, train_loss: 0.190384, train_accuracy: 0.9345
+[04/06 09:08:01]: Epoch Test: 150, Current test accuracy: 0.8679, Best test accuracy in 148: 0.8734
+[04/06 09:08:15]: epoch: 151, train_loss: 0.188468, train_accuracy: 0.9356
+[04/06 09:08:16]: Epoch Test: 151, Current test accuracy: 0.8629, Best test accuracy in 148: 0.8734
+[04/06 09:08:27]: epoch: 152, train_loss: 0.182710, train_accuracy: 0.9375
+[04/06 09:08:28]: Epoch Test: 152, Current test accuracy: 0.8690, Best test accuracy in 148: 0.8734
+[04/06 09:08:39]: epoch: 153, train_loss: 0.188125, train_accuracy: 0.9369
+[04/06 09:08:40]: Epoch Test: 153, Current test accuracy: 0.8642, Best test accuracy in 148: 0.8734
+[04/06 09:08:52]: epoch: 154, train_loss: 0.186081, train_accuracy: 0.9377
+[04/06 09:08:52]: Epoch Test: 154, Current test accuracy: 0.8725, Best test accuracy in 148: 0.8734
+[04/06 09:09:05]: epoch: 155, train_loss: 0.184706, train_accuracy: 0.9376
+[04/06 09:09:06]: Epoch Test: 155, Current test accuracy: 0.8576, Best test accuracy in 148: 0.8734
+[04/06 09:09:21]: epoch: 156, train_loss: 0.183584, train_accuracy: 0.9363
+[04/06 09:09:22]: Epoch Test: 156, Current test accuracy: 0.8682, Best test accuracy in 148: 0.8734
+[04/06 09:09:34]: epoch: 157, train_loss: 0.183509, train_accuracy: 0.9371
+[04/06 09:09:34]: Epoch Test: 157, Current test accuracy: 0.8656, Best test accuracy in 148: 0.8734
+[04/06 09:09:48]: epoch: 158, train_loss: 0.188849, train_accuracy: 0.9360
+[04/06 09:09:49]: Epoch Test: 158, Current test accuracy: 0.8686, Best test accuracy in 148: 0.8734
+[04/06 09:10:00]: epoch: 159, train_loss: 0.183849, train_accuracy: 0.9371
+[04/06 09:10:01]: Epoch Test: 159, Current test accuracy: 0.8634, Best test accuracy in 148: 0.8734
+[04/06 09:10:12]: epoch: 160, train_loss: 0.182427, train_accuracy: 0.9389
+[04/06 09:10:13]: Epoch Test: 160, Current test accuracy: 0.8663, Best test accuracy in 148: 0.8734
+[04/06 09:10:25]: epoch: 161, train_loss: 0.175291, train_accuracy: 0.9405
+[04/06 09:10:25]: Epoch Test: 161, Current test accuracy: 0.8619, Best test accuracy in 148: 0.8734
+[04/06 09:10:37]: epoch: 162, train_loss: 0.178695, train_accuracy: 0.9380
+[04/06 09:10:38]: Epoch Test: 162, Current test accuracy: 0.8658, Best test accuracy in 148: 0.8734
+[04/06 09:10:50]: epoch: 163, train_loss: 0.174523, train_accuracy: 0.9416
+[04/06 09:10:51]: Epoch Test: 163, Current test accuracy: 0.8630, Best test accuracy in 148: 0.8734
+[04/06 09:11:02]: epoch: 164, train_loss: 0.171492, train_accuracy: 0.9418
+[04/06 09:11:03]: Epoch Test: 164, Current test accuracy: 0.8611, Best test accuracy in 148: 0.8734
+[04/06 09:11:15]: epoch: 165, train_loss: 0.180749, train_accuracy: 0.9381
+[04/06 09:11:16]: Epoch Test: 165, Current test accuracy: 0.8455, Best test accuracy in 148: 0.8734
+[04/06 09:11:27]: epoch: 166, train_loss: 0.171955, train_accuracy: 0.9411
+[04/06 09:11:28]: Epoch Test: 166, Current test accuracy: 0.8683, Best test accuracy in 148: 0.8734
+[04/06 09:11:40]: epoch: 167, train_loss: 0.177302, train_accuracy: 0.9403
+[04/06 09:11:40]: Epoch Test: 167, Current test accuracy: 0.8710, Best test accuracy in 148: 0.8734
+[04/06 09:11:52]: epoch: 168, train_loss: 0.172854, train_accuracy: 0.9412
+[04/06 09:11:53]: Epoch Test: 168, Current test accuracy: 0.8644, Best test accuracy in 148: 0.8734
+[04/06 09:12:04]: epoch: 169, train_loss: 0.173785, train_accuracy: 0.9403
+[04/06 09:12:05]: Epoch Test: 169, Current test accuracy: 0.8645, Best test accuracy in 148: 0.8734
+[04/06 09:12:17]: epoch: 170, train_loss: 0.168661, train_accuracy: 0.9424
+[04/06 09:12:17]: Epoch Test: 170, Current test accuracy: 0.8634, Best test accuracy in 148: 0.8734
+[04/06 09:12:29]: epoch: 171, train_loss: 0.169770, train_accuracy: 0.9424
+[04/06 09:12:30]: Epoch Test: 171, Current test accuracy: 0.8673, Best test accuracy in 148: 0.8734
+[04/06 09:12:41]: epoch: 172, train_loss: 0.174496, train_accuracy: 0.9409
+[04/06 09:12:42]: Epoch Test: 172, Current test accuracy: 0.8688, Best test accuracy in 148: 0.8734
+[04/06 09:12:53]: epoch: 173, train_loss: 0.176465, train_accuracy: 0.9402
+[04/06 09:12:54]: Epoch Test: 173, Current test accuracy: 0.8727, Best test accuracy in 148: 0.8734
+[04/06 09:13:06]: epoch: 174, train_loss: 0.168155, train_accuracy: 0.9422
+[04/06 09:13:06]: Epoch Test: 174, Current test accuracy: 0.8746, Best test accuracy in 174: 0.8746
+[04/06 09:13:18]: epoch: 175, train_loss: 0.169305, train_accuracy: 0.9426
+[04/06 09:13:19]: Epoch Test: 175, Current test accuracy: 0.8780, Best test accuracy in 175: 0.8780
+[04/06 09:13:30]: epoch: 176, train_loss: 0.172444, train_accuracy: 0.9412
+[04/06 09:13:31]: Epoch Test: 176, Current test accuracy: 0.8632, Best test accuracy in 175: 0.8780
+[04/06 09:13:43]: epoch: 177, train_loss: 0.165551, train_accuracy: 0.9443
+[04/06 09:13:43]: Epoch Test: 177, Current test accuracy: 0.8733, Best test accuracy in 175: 0.8780
+[04/06 09:13:55]: epoch: 178, train_loss: 0.165671, train_accuracy: 0.9437
+[04/06 09:13:56]: Epoch Test: 178, Current test accuracy: 0.8616, Best test accuracy in 175: 0.8780
+[04/06 09:14:07]: epoch: 179, train_loss: 0.168027, train_accuracy: 0.9432
+[04/06 09:14:08]: Epoch Test: 179, Current test accuracy: 0.8665, Best test accuracy in 175: 0.8780
+[04/06 09:14:19]: epoch: 180, train_loss: 0.169327, train_accuracy: 0.9422
+[04/06 09:14:20]: Epoch Test: 180, Current test accuracy: 0.8728, Best test accuracy in 175: 0.8780
+[04/06 09:14:31]: epoch: 181, train_loss: 0.164047, train_accuracy: 0.9435
+[04/06 09:14:32]: Epoch Test: 181, Current test accuracy: 0.8714, Best test accuracy in 175: 0.8780
+[04/06 09:14:44]: epoch: 182, train_loss: 0.162339, train_accuracy: 0.9442
+[04/06 09:14:44]: Epoch Test: 182, Current test accuracy: 0.8729, Best test accuracy in 175: 0.8780
+[04/06 09:14:56]: epoch: 183, train_loss: 0.159343, train_accuracy: 0.9460
+[04/06 09:14:57]: Epoch Test: 183, Current test accuracy: 0.8697, Best test accuracy in 175: 0.8780
+[04/06 09:15:08]: epoch: 184, train_loss: 0.161547, train_accuracy: 0.9457
+[04/06 09:15:09]: Epoch Test: 184, Current test accuracy: 0.8617, Best test accuracy in 175: 0.8780
+[04/06 09:15:20]: epoch: 185, train_loss: 0.161406, train_accuracy: 0.9449
+[04/06 09:15:21]: Epoch Test: 185, Current test accuracy: 0.8689, Best test accuracy in 175: 0.8780
+[04/06 09:15:33]: epoch: 186, train_loss: 0.159695, train_accuracy: 0.9458
+[04/06 09:15:33]: Epoch Test: 186, Current test accuracy: 0.8681, Best test accuracy in 175: 0.8780
+[04/06 09:15:45]: epoch: 187, train_loss: 0.160398, train_accuracy: 0.9455
+[04/06 09:15:46]: Epoch Test: 187, Current test accuracy: 0.8694, Best test accuracy in 175: 0.8780
+[04/06 09:15:57]: epoch: 188, train_loss: 0.158328, train_accuracy: 0.9457
+[04/06 09:15:58]: Epoch Test: 188, Current test accuracy: 0.8545, Best test accuracy in 175: 0.8780
+[04/06 09:16:09]: epoch: 189, train_loss: 0.156662, train_accuracy: 0.9472
+[04/06 09:16:10]: Epoch Test: 189, Current test accuracy: 0.8559, Best test accuracy in 175: 0.8780
+[04/06 09:16:21]: epoch: 190, train_loss: 0.163557, train_accuracy: 0.9454
+[04/06 09:16:22]: Epoch Test: 190, Current test accuracy: 0.8666, Best test accuracy in 175: 0.8780
+[04/06 09:16:34]: epoch: 191, train_loss: 0.160120, train_accuracy: 0.9458
+[04/06 09:16:34]: Epoch Test: 191, Current test accuracy: 0.8686, Best test accuracy in 175: 0.8780
+[04/06 09:16:46]: epoch: 192, train_loss: 0.153555, train_accuracy: 0.9480
+[04/06 09:16:47]: Epoch Test: 192, Current test accuracy: 0.8687, Best test accuracy in 175: 0.8780
+[04/06 09:16:58]: epoch: 193, train_loss: 0.154465, train_accuracy: 0.9480
+[04/06 09:16:59]: Epoch Test: 193, Current test accuracy: 0.8675, Best test accuracy in 175: 0.8780
+[04/06 09:17:10]: epoch: 194, train_loss: 0.155371, train_accuracy: 0.9462
+[04/06 09:17:11]: Epoch Test: 194, Current test accuracy: 0.8625, Best test accuracy in 175: 0.8780
+[04/06 09:17:23]: epoch: 195, train_loss: 0.161360, train_accuracy: 0.9458
+[04/06 09:17:23]: Epoch Test: 195, Current test accuracy: 0.8591, Best test accuracy in 175: 0.8780
+[04/06 09:17:35]: epoch: 196, train_loss: 0.152202, train_accuracy: 0.9485
+[04/06 09:17:36]: Epoch Test: 196, Current test accuracy: 0.8585, Best test accuracy in 175: 0.8780
+[04/06 09:17:47]: epoch: 197, train_loss: 0.153289, train_accuracy: 0.9478
+[04/06 09:17:48]: Epoch Test: 197, Current test accuracy: 0.8646, Best test accuracy in 175: 0.8780
+[04/06 09:18:00]: epoch: 198, train_loss: 0.149802, train_accuracy: 0.9491
+[04/06 09:18:00]: Epoch Test: 198, Current test accuracy: 0.8533, Best test accuracy in 175: 0.8780
+[04/06 09:18:12]: epoch: 199, train_loss: 0.153964, train_accuracy: 0.9476
+[04/06 09:18:13]: Epoch Test: 199, Current test accuracy: 0.8676, Best test accuracy in 175: 0.8780
+[04/06 09:18:24]: epoch: 200, train_loss: 0.156774, train_accuracy: 0.9462
+[04/06 09:18:25]: Epoch Test: 200, Current test accuracy: 0.8718, Best test accuracy in 175: 0.8780
+[04/06 09:18:36]: epoch: 201, train_loss: 0.154145, train_accuracy: 0.9465
+[04/06 09:18:37]: Epoch Test: 201, Current test accuracy: 0.8703, Best test accuracy in 175: 0.8780
+[04/06 09:18:49]: epoch: 202, train_loss: 0.150299, train_accuracy: 0.9489
+[04/06 09:18:49]: Epoch Test: 202, Current test accuracy: 0.8641, Best test accuracy in 175: 0.8780
+[04/06 09:19:01]: epoch: 203, train_loss: 0.144405, train_accuracy: 0.9515
+[04/06 09:19:02]: Epoch Test: 203, Current test accuracy: 0.8658, Best test accuracy in 175: 0.8780
+[04/06 09:19:13]: epoch: 204, train_loss: 0.147217, train_accuracy: 0.9495
+[04/06 09:19:14]: Epoch Test: 204, Current test accuracy: 0.8632, Best test accuracy in 175: 0.8780
+[04/06 09:19:25]: epoch: 205, train_loss: 0.148852, train_accuracy: 0.9494
+[04/06 09:19:26]: Epoch Test: 205, Current test accuracy: 0.8780, Best test accuracy in 175: 0.8780
+[04/06 09:19:37]: epoch: 206, train_loss: 0.149664, train_accuracy: 0.9477
+[04/06 09:19:38]: Epoch Test: 206, Current test accuracy: 0.8620, Best test accuracy in 175: 0.8780
+[04/06 09:19:50]: epoch: 207, train_loss: 0.145819, train_accuracy: 0.9502
+[04/06 09:19:50]: Epoch Test: 207, Current test accuracy: 0.8732, Best test accuracy in 175: 0.8780
+[04/06 09:20:02]: epoch: 208, train_loss: 0.145416, train_accuracy: 0.9514
+[04/06 09:20:03]: Epoch Test: 208, Current test accuracy: 0.8495, Best test accuracy in 175: 0.8780
+[04/06 09:20:14]: epoch: 209, train_loss: 0.148106, train_accuracy: 0.9504
+[04/06 09:20:15]: Epoch Test: 209, Current test accuracy: 0.8680, Best test accuracy in 175: 0.8780
+[04/06 09:20:26]: epoch: 210, train_loss: 0.144337, train_accuracy: 0.9508
+[04/06 09:20:27]: Epoch Test: 210, Current test accuracy: 0.8563, Best test accuracy in 175: 0.8780
+[04/06 09:20:39]: epoch: 211, train_loss: 0.144083, train_accuracy: 0.9507
+[04/06 09:20:40]: Epoch Test: 211, Current test accuracy: 0.8736, Best test accuracy in 175: 0.8780
+[04/06 09:20:51]: epoch: 212, train_loss: 0.145623, train_accuracy: 0.9511
+[04/06 09:20:52]: Epoch Test: 212, Current test accuracy: 0.8776, Best test accuracy in 175: 0.8780
+[04/06 09:21:03]: epoch: 213, train_loss: 0.137449, train_accuracy: 0.9528
+[04/06 09:21:04]: Epoch Test: 213, Current test accuracy: 0.8535, Best test accuracy in 175: 0.8780
+[04/06 09:21:15]: epoch: 214, train_loss: 0.155634, train_accuracy: 0.9475
+[04/06 09:21:16]: Epoch Test: 214, Current test accuracy: 0.8738, Best test accuracy in 175: 0.8780
+[04/06 09:21:28]: epoch: 215, train_loss: 0.140801, train_accuracy: 0.9516
+[04/06 09:21:28]: Epoch Test: 215, Current test accuracy: 0.8464, Best test accuracy in 175: 0.8780
+[04/06 09:21:40]: epoch: 216, train_loss: 0.140528, train_accuracy: 0.9521
+[04/06 09:21:41]: Epoch Test: 216, Current test accuracy: 0.8723, Best test accuracy in 175: 0.8780
+[04/06 09:21:52]: epoch: 217, train_loss: 0.139721, train_accuracy: 0.9526
+[04/06 09:21:53]: Epoch Test: 217, Current test accuracy: 0.8778, Best test accuracy in 175: 0.8780
+[04/06 09:22:04]: epoch: 218, train_loss: 0.140386, train_accuracy: 0.9514
+[04/06 09:22:05]: Epoch Test: 218, Current test accuracy: 0.8767, Best test accuracy in 175: 0.8780
+[04/06 09:22:16]: epoch: 219, train_loss: 0.138440, train_accuracy: 0.9522
+[04/06 09:22:17]: Epoch Test: 219, Current test accuracy: 0.8727, Best test accuracy in 175: 0.8780
+[04/06 09:22:29]: epoch: 220, train_loss: 0.142919, train_accuracy: 0.9514
+[04/06 09:22:29]: Epoch Test: 220, Current test accuracy: 0.8762, Best test accuracy in 175: 0.8780
+[04/06 09:22:41]: epoch: 221, train_loss: 0.135764, train_accuracy: 0.9538
+[04/06 09:22:41]: Epoch Test: 221, Current test accuracy: 0.8684, Best test accuracy in 175: 0.8780
+[04/06 09:22:53]: epoch: 222, train_loss: 0.142362, train_accuracy: 0.9516
+[04/06 09:22:54]: Epoch Test: 222, Current test accuracy: 0.8808, Best test accuracy in 222: 0.8808
+[04/06 09:23:05]: epoch: 223, train_loss: 0.135056, train_accuracy: 0.9530
+[04/06 09:23:06]: Epoch Test: 223, Current test accuracy: 0.8725, Best test accuracy in 222: 0.8808
+[04/06 09:23:17]: epoch: 224, train_loss: 0.139977, train_accuracy: 0.9524
+[04/06 09:23:18]: Epoch Test: 224, Current test accuracy: 0.8738, Best test accuracy in 222: 0.8808
+[04/06 09:23:30]: epoch: 225, train_loss: 0.130093, train_accuracy: 0.9549
+[04/06 09:23:30]: Epoch Test: 225, Current test accuracy: 0.8785, Best test accuracy in 222: 0.8808
+[04/06 09:23:42]: epoch: 226, train_loss: 0.142368, train_accuracy: 0.9516
+[04/06 09:23:43]: Epoch Test: 226, Current test accuracy: 0.8743, Best test accuracy in 222: 0.8808
+[04/06 09:23:54]: epoch: 227, train_loss: 0.132278, train_accuracy: 0.9546
+[04/06 09:23:55]: Epoch Test: 227, Current test accuracy: 0.8771, Best test accuracy in 222: 0.8808
+[04/06 09:24:06]: epoch: 228, train_loss: 0.138324, train_accuracy: 0.9520
+[04/06 09:24:07]: Epoch Test: 228, Current test accuracy: 0.8745, Best test accuracy in 222: 0.8808
+[04/06 09:24:19]: epoch: 229, train_loss: 0.137127, train_accuracy: 0.9530
+[04/06 09:24:19]: Epoch Test: 229, Current test accuracy: 0.8675, Best test accuracy in 222: 0.8808
+[04/06 09:24:31]: epoch: 230, train_loss: 0.130860, train_accuracy: 0.9557
+[04/06 09:24:32]: Epoch Test: 230, Current test accuracy: 0.8683, Best test accuracy in 222: 0.8808
+[04/06 09:24:43]: epoch: 231, train_loss: 0.141095, train_accuracy: 0.9527
+[04/06 09:24:44]: Epoch Test: 231, Current test accuracy: 0.8729, Best test accuracy in 222: 0.8808
+[04/06 09:24:55]: epoch: 232, train_loss: 0.137665, train_accuracy: 0.9539
+[04/06 09:24:56]: Epoch Test: 232, Current test accuracy: 0.8677, Best test accuracy in 222: 0.8808
+[04/06 09:25:08]: epoch: 233, train_loss: 0.129448, train_accuracy: 0.9562
+[04/06 09:25:08]: Epoch Test: 233, Current test accuracy: 0.8767, Best test accuracy in 222: 0.8808
+[04/06 09:25:20]: epoch: 234, train_loss: 0.132609, train_accuracy: 0.9559
+[04/06 09:25:21]: Epoch Test: 234, Current test accuracy: 0.8714, Best test accuracy in 222: 0.8808
+[04/06 09:25:32]: epoch: 235, train_loss: 0.129495, train_accuracy: 0.9561
+[04/06 09:25:33]: Epoch Test: 235, Current test accuracy: 0.8784, Best test accuracy in 222: 0.8808
+[04/06 09:25:44]: epoch: 236, train_loss: 0.136011, train_accuracy: 0.9550
+[04/06 09:25:45]: Epoch Test: 236, Current test accuracy: 0.8573, Best test accuracy in 222: 0.8808
+[04/06 09:25:57]: epoch: 237, train_loss: 0.126076, train_accuracy: 0.9572
+[04/06 09:25:58]: Epoch Test: 237, Current test accuracy: 0.8737, Best test accuracy in 222: 0.8808
+[04/06 09:26:09]: epoch: 238, train_loss: 0.131165, train_accuracy: 0.9547
+[04/06 09:26:10]: Epoch Test: 238, Current test accuracy: 0.8740, Best test accuracy in 222: 0.8808
+[04/06 09:26:21]: epoch: 239, train_loss: 0.136453, train_accuracy: 0.9537
+[04/06 09:26:22]: Epoch Test: 239, Current test accuracy: 0.8724, Best test accuracy in 222: 0.8808
+[04/06 09:26:33]: epoch: 240, train_loss: 0.130307, train_accuracy: 0.9557
+[04/06 09:26:34]: Epoch Test: 240, Current test accuracy: 0.8671, Best test accuracy in 222: 0.8808
+[04/06 09:26:46]: epoch: 241, train_loss: 0.133304, train_accuracy: 0.9548
+[04/06 09:26:46]: Epoch Test: 241, Current test accuracy: 0.8761, Best test accuracy in 222: 0.8808
+[04/06 09:26:58]: epoch: 242, train_loss: 0.130531, train_accuracy: 0.9554
+[04/06 09:26:59]: Epoch Test: 242, Current test accuracy: 0.8751, Best test accuracy in 222: 0.8808
+[04/06 09:27:10]: epoch: 243, train_loss: 0.133567, train_accuracy: 0.9541
+[04/06 09:27:11]: Epoch Test: 243, Current test accuracy: 0.8667, Best test accuracy in 222: 0.8808
+[04/06 09:27:22]: epoch: 244, train_loss: 0.134190, train_accuracy: 0.9559
+[04/06 09:27:23]: Epoch Test: 244, Current test accuracy: 0.8620, Best test accuracy in 222: 0.8808
+[04/06 09:27:35]: epoch: 245, train_loss: 0.125431, train_accuracy: 0.9571
+[04/06 09:27:35]: Epoch Test: 245, Current test accuracy: 0.8735, Best test accuracy in 222: 0.8808
+[04/06 09:27:47]: epoch: 246, train_loss: 0.126583, train_accuracy: 0.9558
+[04/06 09:27:48]: Epoch Test: 246, Current test accuracy: 0.8718, Best test accuracy in 222: 0.8808
+[04/06 09:27:59]: epoch: 247, train_loss: 0.127217, train_accuracy: 0.9571
+[04/06 09:28:00]: Epoch Test: 247, Current test accuracy: 0.8683, Best test accuracy in 222: 0.8808
+[04/06 09:28:11]: epoch: 248, train_loss: 0.128397, train_accuracy: 0.9562
+[04/06 09:28:12]: Epoch Test: 248, Current test accuracy: 0.8745, Best test accuracy in 222: 0.8808
+[04/06 09:28:23]: epoch: 249, train_loss: 0.126232, train_accuracy: 0.9564
+[04/06 09:28:24]: Epoch Test: 249, Current test accuracy: 0.8697, Best test accuracy in 222: 0.8808
+[04/06 09:28:36]: epoch: 250, train_loss: 0.124472, train_accuracy: 0.9585
+[04/06 09:28:37]: Epoch Test: 250, Current test accuracy: 0.8719, Best test accuracy in 222: 0.8808
+[04/06 09:28:48]: epoch: 251, train_loss: 0.129783, train_accuracy: 0.9559
+[04/06 09:28:49]: Epoch Test: 251, Current test accuracy: 0.8659, Best test accuracy in 222: 0.8808
+[04/06 09:29:00]: epoch: 252, train_loss: 0.127074, train_accuracy: 0.9560
+[04/06 09:29:01]: Epoch Test: 252, Current test accuracy: 0.8783, Best test accuracy in 222: 0.8808
+[04/06 09:29:13]: epoch: 253, train_loss: 0.127019, train_accuracy: 0.9573
+[04/06 09:29:13]: Epoch Test: 253, Current test accuracy: 0.8791, Best test accuracy in 222: 0.8808
+[04/06 09:29:25]: epoch: 254, train_loss: 0.121110, train_accuracy: 0.9591
+[04/06 09:29:25]: Epoch Test: 254, Current test accuracy: 0.8737, Best test accuracy in 222: 0.8808
+[04/06 09:29:37]: epoch: 255, train_loss: 0.125854, train_accuracy: 0.9570
+[04/06 09:29:38]: Epoch Test: 255, Current test accuracy: 0.8706, Best test accuracy in 222: 0.8808
+[04/06 09:29:49]: epoch: 256, train_loss: 0.119946, train_accuracy: 0.9596
+[04/06 09:29:50]: Epoch Test: 256, Current test accuracy: 0.8668, Best test accuracy in 222: 0.8808
+[04/06 09:30:02]: epoch: 257, train_loss: 0.122132, train_accuracy: 0.9586
+[04/06 09:30:02]: Epoch Test: 257, Current test accuracy: 0.8791, Best test accuracy in 222: 0.8808
+[04/06 09:30:14]: epoch: 258, train_loss: 0.126761, train_accuracy: 0.9568
+[04/06 09:30:15]: Epoch Test: 258, Current test accuracy: 0.8794, Best test accuracy in 222: 0.8808
+[04/06 09:30:26]: epoch: 259, train_loss: 0.122397, train_accuracy: 0.9586
+[04/06 09:30:27]: Epoch Test: 259, Current test accuracy: 0.8659, Best test accuracy in 222: 0.8808
+[04/06 09:30:38]: epoch: 260, train_loss: 0.120098, train_accuracy: 0.9608
+[04/06 09:30:39]: Epoch Test: 260, Current test accuracy: 0.8785, Best test accuracy in 222: 0.8808
+[04/06 09:30:51]: epoch: 261, train_loss: 0.117917, train_accuracy: 0.9595
+[04/06 09:30:51]: Epoch Test: 261, Current test accuracy: 0.8759, Best test accuracy in 222: 0.8808
+[04/06 09:31:03]: epoch: 262, train_loss: 0.119920, train_accuracy: 0.9604
+[04/06 09:31:04]: Epoch Test: 262, Current test accuracy: 0.8697, Best test accuracy in 222: 0.8808
+[04/06 09:31:15]: epoch: 263, train_loss: 0.121216, train_accuracy: 0.9587
+[04/06 09:31:16]: Epoch Test: 263, Current test accuracy: 0.8723, Best test accuracy in 222: 0.8808
+[04/06 09:31:27]: epoch: 264, train_loss: 0.126356, train_accuracy: 0.9564
+[04/06 09:31:28]: Epoch Test: 264, Current test accuracy: 0.8752, Best test accuracy in 222: 0.8808
+[04/06 09:31:40]: epoch: 265, train_loss: 0.119230, train_accuracy: 0.9598
+[04/06 09:31:40]: Epoch Test: 265, Current test accuracy: 0.8779, Best test accuracy in 222: 0.8808
+[04/06 09:31:52]: epoch: 266, train_loss: 0.121229, train_accuracy: 0.9576
+[04/06 09:31:53]: Epoch Test: 266, Current test accuracy: 0.8796, Best test accuracy in 222: 0.8808
+[04/06 09:32:04]: epoch: 267, train_loss: 0.118335, train_accuracy: 0.9594
+[04/06 09:32:05]: Epoch Test: 267, Current test accuracy: 0.8696, Best test accuracy in 222: 0.8808
+[04/06 09:32:16]: epoch: 268, train_loss: 0.121207, train_accuracy: 0.9592
+[04/06 09:32:17]: Epoch Test: 268, Current test accuracy: 0.8765, Best test accuracy in 222: 0.8808
+[04/06 09:32:29]: epoch: 269, train_loss: 0.120557, train_accuracy: 0.9586
+[04/06 09:32:29]: Epoch Test: 269, Current test accuracy: 0.8754, Best test accuracy in 222: 0.8808
+[04/06 09:32:41]: epoch: 270, train_loss: 0.119365, train_accuracy: 0.9590
+[04/06 09:32:42]: Epoch Test: 270, Current test accuracy: 0.8730, Best test accuracy in 222: 0.8808
+[04/06 09:32:53]: epoch: 271, train_loss: 0.116594, train_accuracy: 0.9608
+[04/06 09:32:54]: Epoch Test: 271, Current test accuracy: 0.8747, Best test accuracy in 222: 0.8808
+[04/06 09:33:05]: epoch: 272, train_loss: 0.115887, train_accuracy: 0.9607
+[04/06 09:33:06]: Epoch Test: 272, Current test accuracy: 0.8779, Best test accuracy in 222: 0.8808
+[04/06 09:33:18]: epoch: 273, train_loss: 0.121901, train_accuracy: 0.9581
+[04/06 09:33:18]: Epoch Test: 273, Current test accuracy: 0.8655, Best test accuracy in 222: 0.8808
+[04/06 09:33:30]: epoch: 274, train_loss: 0.115406, train_accuracy: 0.9613
+[04/06 09:33:31]: Epoch Test: 274, Current test accuracy: 0.8590, Best test accuracy in 222: 0.8808
+[04/06 09:33:42]: epoch: 275, train_loss: 0.119751, train_accuracy: 0.9606
+[04/06 09:33:43]: Epoch Test: 275, Current test accuracy: 0.8705, Best test accuracy in 222: 0.8808
+[04/06 09:33:54]: epoch: 276, train_loss: 0.114694, train_accuracy: 0.9615
+[04/06 09:33:55]: Epoch Test: 276, Current test accuracy: 0.8729, Best test accuracy in 222: 0.8808
+[04/06 09:34:07]: epoch: 277, train_loss: 0.116192, train_accuracy: 0.9616
+[04/06 09:34:07]: Epoch Test: 277, Current test accuracy: 0.8694, Best test accuracy in 222: 0.8808
+[04/06 09:34:19]: epoch: 278, train_loss: 0.115646, train_accuracy: 0.9601
+[04/06 09:34:20]: Epoch Test: 278, Current test accuracy: 0.8728, Best test accuracy in 222: 0.8808
+[04/06 09:34:31]: epoch: 279, train_loss: 0.115389, train_accuracy: 0.9610
+[04/06 09:34:32]: Epoch Test: 279, Current test accuracy: 0.8809, Best test accuracy in 279: 0.8809
+[04/06 09:34:44]: epoch: 280, train_loss: 0.111300, train_accuracy: 0.9623
+[04/06 09:34:44]: Epoch Test: 280, Current test accuracy: 0.8784, Best test accuracy in 279: 0.8809
+[04/06 09:34:56]: epoch: 281, train_loss: 0.116982, train_accuracy: 0.9605
+[04/06 09:34:57]: Epoch Test: 281, Current test accuracy: 0.8752, Best test accuracy in 279: 0.8809
+[04/06 09:35:08]: epoch: 282, train_loss: 0.122652, train_accuracy: 0.9587
+[04/06 09:35:09]: Epoch Test: 282, Current test accuracy: 0.8694, Best test accuracy in 279: 0.8809
+[04/06 09:35:20]: epoch: 283, train_loss: 0.117402, train_accuracy: 0.9599
+[04/06 09:35:21]: Epoch Test: 283, Current test accuracy: 0.8729, Best test accuracy in 279: 0.8809
+[04/06 09:35:33]: epoch: 284, train_loss: 0.111422, train_accuracy: 0.9624
+[04/06 09:35:33]: Epoch Test: 284, Current test accuracy: 0.8790, Best test accuracy in 279: 0.8809
+[04/06 09:35:45]: epoch: 285, train_loss: 0.111215, train_accuracy: 0.9627
+[04/06 09:35:46]: Epoch Test: 285, Current test accuracy: 0.8777, Best test accuracy in 279: 0.8809
+[04/06 09:35:57]: epoch: 286, train_loss: 0.114461, train_accuracy: 0.9609
+[04/06 09:35:58]: Epoch Test: 286, Current test accuracy: 0.8752, Best test accuracy in 279: 0.8809
+[04/06 09:36:10]: epoch: 287, train_loss: 0.112358, train_accuracy: 0.9619
+[04/06 09:36:10]: Epoch Test: 287, Current test accuracy: 0.8609, Best test accuracy in 279: 0.8809
+[04/06 09:36:22]: epoch: 288, train_loss: 0.111730, train_accuracy: 0.9626
+[04/06 09:36:23]: Epoch Test: 288, Current test accuracy: 0.8806, Best test accuracy in 279: 0.8809
+[04/06 09:36:34]: epoch: 289, train_loss: 0.111974, train_accuracy: 0.9626
+[04/06 09:36:35]: Epoch Test: 289, Current test accuracy: 0.8660, Best test accuracy in 279: 0.8809
+[04/06 09:36:46]: epoch: 290, train_loss: 0.113571, train_accuracy: 0.9613
+[04/06 09:36:47]: Epoch Test: 290, Current test accuracy: 0.8797, Best test accuracy in 279: 0.8809
+[04/06 09:36:58]: epoch: 291, train_loss: 0.109546, train_accuracy: 0.9631
+[04/06 09:36:59]: Epoch Test: 291, Current test accuracy: 0.8761, Best test accuracy in 279: 0.8809
+[04/06 09:37:11]: epoch: 292, train_loss: 0.112305, train_accuracy: 0.9621
+[04/06 09:37:12]: Epoch Test: 292, Current test accuracy: 0.8725, Best test accuracy in 279: 0.8809
+[04/06 09:37:23]: epoch: 293, train_loss: 0.110595, train_accuracy: 0.9622
+[04/06 09:37:24]: Epoch Test: 293, Current test accuracy: 0.8724, Best test accuracy in 279: 0.8809
+[04/06 09:37:35]: epoch: 294, train_loss: 0.110489, train_accuracy: 0.9630
+[04/06 09:37:36]: Epoch Test: 294, Current test accuracy: 0.8690, Best test accuracy in 279: 0.8809
+[04/06 09:37:47]: epoch: 295, train_loss: 0.115240, train_accuracy: 0.9614
+[04/06 09:37:48]: Epoch Test: 295, Current test accuracy: 0.8734, Best test accuracy in 279: 0.8809
+[04/06 09:37:59]: epoch: 296, train_loss: 0.113163, train_accuracy: 0.9617
+[04/06 09:38:00]: Epoch Test: 296, Current test accuracy: 0.8759, Best test accuracy in 279: 0.8809
+[04/06 09:38:12]: epoch: 297, train_loss: 0.110319, train_accuracy: 0.9628
+[04/06 09:38:13]: Epoch Test: 297, Current test accuracy: 0.8668, Best test accuracy in 279: 0.8809
+[04/06 09:38:24]: epoch: 298, train_loss: 0.107396, train_accuracy: 0.9641
+[04/06 09:38:25]: Epoch Test: 298, Current test accuracy: 0.8775, Best test accuracy in 279: 0.8809
+[04/06 09:38:36]: epoch: 299, train_loss: 0.109328, train_accuracy: 0.9640
+[04/06 09:38:37]: Epoch Test: 299, Current test accuracy: 0.8775, Best test accuracy in 279: 0.8809
+[04/06 09:38:49]: epoch: 300, train_loss: 0.112152, train_accuracy: 0.9618
+[04/06 09:38:49]: Epoch Test: 300, Current test accuracy: 0.8729, Best test accuracy in 279: 0.8809
+[04/06 09:39:01]: epoch: 301, train_loss: 0.112900, train_accuracy: 0.9627
+[04/06 09:39:02]: Epoch Test: 301, Current test accuracy: 0.8810, Best test accuracy in 301: 0.8810
+[04/06 09:39:13]: epoch: 302, train_loss: 0.105964, train_accuracy: 0.9648
+[04/06 09:39:14]: Epoch Test: 302, Current test accuracy: 0.8638, Best test accuracy in 301: 0.8810
+[04/06 09:39:25]: epoch: 303, train_loss: 0.111826, train_accuracy: 0.9626
+[04/06 09:39:26]: Epoch Test: 303, Current test accuracy: 0.8734, Best test accuracy in 301: 0.8810
+[04/06 09:39:38]: epoch: 304, train_loss: 0.106228, train_accuracy: 0.9644
+[04/06 09:39:38]: Epoch Test: 304, Current test accuracy: 0.8762, Best test accuracy in 301: 0.8810
+[04/06 09:39:50]: epoch: 305, train_loss: 0.105814, train_accuracy: 0.9636
+[04/06 09:39:51]: Epoch Test: 305, Current test accuracy: 0.8712, Best test accuracy in 301: 0.8810
+[04/06 09:40:02]: epoch: 306, train_loss: 0.106531, train_accuracy: 0.9637
+[04/06 09:40:03]: Epoch Test: 306, Current test accuracy: 0.8720, Best test accuracy in 301: 0.8810
+[04/06 09:40:14]: epoch: 307, train_loss: 0.107403, train_accuracy: 0.9642
+[04/06 09:40:15]: Epoch Test: 307, Current test accuracy: 0.8748, Best test accuracy in 301: 0.8810
+[04/06 09:40:27]: epoch: 308, train_loss: 0.107523, train_accuracy: 0.9634
+[04/06 09:40:27]: Epoch Test: 308, Current test accuracy: 0.8740, Best test accuracy in 301: 0.8810
+[04/06 09:40:39]: epoch: 309, train_loss: 0.111207, train_accuracy: 0.9625
+[04/06 09:40:40]: Epoch Test: 309, Current test accuracy: 0.8750, Best test accuracy in 301: 0.8810
+[04/06 09:40:51]: epoch: 310, train_loss: 0.103774, train_accuracy: 0.9653
+[04/06 09:40:52]: Epoch Test: 310, Current test accuracy: 0.8785, Best test accuracy in 301: 0.8810
+[04/06 09:41:04]: epoch: 311, train_loss: 0.103172, train_accuracy: 0.9645
+[04/06 09:41:04]: Epoch Test: 311, Current test accuracy: 0.8826, Best test accuracy in 311: 0.8826
+[04/06 09:41:16]: epoch: 312, train_loss: 0.105318, train_accuracy: 0.9646
+[04/06 09:41:17]: Epoch Test: 312, Current test accuracy: 0.8739, Best test accuracy in 311: 0.8826
+[04/06 09:41:28]: epoch: 313, train_loss: 0.102236, train_accuracy: 0.9662
+[04/06 09:41:29]: Epoch Test: 313, Current test accuracy: 0.8686, Best test accuracy in 311: 0.8826
+[04/06 09:41:40]: epoch: 314, train_loss: 0.108559, train_accuracy: 0.9632
+[04/06 09:41:41]: Epoch Test: 314, Current test accuracy: 0.8696, Best test accuracy in 311: 0.8826
+[04/06 09:41:53]: epoch: 315, train_loss: 0.102550, train_accuracy: 0.9654
+[04/06 09:41:53]: Epoch Test: 315, Current test accuracy: 0.8753, Best test accuracy in 311: 0.8826
+[04/06 09:42:05]: epoch: 316, train_loss: 0.106656, train_accuracy: 0.9635
+[04/06 09:42:05]: Epoch Test: 316, Current test accuracy: 0.8831, Best test accuracy in 316: 0.8831
+[04/06 09:42:17]: epoch: 317, train_loss: 0.105719, train_accuracy: 0.9637
+[04/06 09:42:18]: Epoch Test: 317, Current test accuracy: 0.8753, Best test accuracy in 316: 0.8831
+[04/06 09:42:29]: epoch: 318, train_loss: 0.101679, train_accuracy: 0.9665
+[04/06 09:42:30]: Epoch Test: 318, Current test accuracy: 0.8796, Best test accuracy in 316: 0.8831
+[04/06 09:42:41]: epoch: 319, train_loss: 0.101643, train_accuracy: 0.9654
+[04/06 09:42:42]: Epoch Test: 319, Current test accuracy: 0.8778, Best test accuracy in 316: 0.8831
+[04/06 09:42:54]: epoch: 320, train_loss: 0.102909, train_accuracy: 0.9643
+[04/06 09:42:54]: Epoch Test: 320, Current test accuracy: 0.8771, Best test accuracy in 316: 0.8831
+[04/06 09:43:06]: epoch: 321, train_loss: 0.101797, train_accuracy: 0.9664
+[04/06 09:43:06]: Epoch Test: 321, Current test accuracy: 0.8736, Best test accuracy in 316: 0.8831
+[04/06 09:43:18]: epoch: 322, train_loss: 0.101290, train_accuracy: 0.9661
+[04/06 09:43:19]: Epoch Test: 322, Current test accuracy: 0.8797, Best test accuracy in 316: 0.8831
+[04/06 09:43:30]: epoch: 323, train_loss: 0.099096, train_accuracy: 0.9655
+[04/06 09:43:31]: Epoch Test: 323, Current test accuracy: 0.8709, Best test accuracy in 316: 0.8831
+[04/06 09:43:43]: epoch: 324, train_loss: 0.106458, train_accuracy: 0.9642
+[04/06 09:43:43]: Epoch Test: 324, Current test accuracy: 0.8815, Best test accuracy in 316: 0.8831
+[04/06 09:43:55]: epoch: 325, train_loss: 0.104592, train_accuracy: 0.9640
+[04/06 09:43:55]: Epoch Test: 325, Current test accuracy: 0.8806, Best test accuracy in 316: 0.8831
+[04/06 09:44:07]: epoch: 326, train_loss: 0.100617, train_accuracy: 0.9661
+[04/06 09:44:08]: Epoch Test: 326, Current test accuracy: 0.8779, Best test accuracy in 316: 0.8831
+[04/06 09:44:19]: epoch: 327, train_loss: 0.105126, train_accuracy: 0.9653
+[04/06 09:44:20]: Epoch Test: 327, Current test accuracy: 0.8564, Best test accuracy in 316: 0.8831
+[04/06 09:44:31]: epoch: 328, train_loss: 0.100146, train_accuracy: 0.9662
+[04/06 09:44:32]: Epoch Test: 328, Current test accuracy: 0.8698, Best test accuracy in 316: 0.8831
+[04/06 09:44:43]: epoch: 329, train_loss: 0.100693, train_accuracy: 0.9657
+[04/06 09:44:44]: Epoch Test: 329, Current test accuracy: 0.8670, Best test accuracy in 316: 0.8831
+[04/06 09:44:56]: epoch: 330, train_loss: 0.102351, train_accuracy: 0.9651
+[04/06 09:44:57]: Epoch Test: 330, Current test accuracy: 0.8790, Best test accuracy in 316: 0.8831
+[04/06 09:45:08]: epoch: 331, train_loss: 0.098202, train_accuracy: 0.9665
+[04/06 09:45:09]: Epoch Test: 331, Current test accuracy: 0.8733, Best test accuracy in 316: 0.8831
+[04/06 09:45:20]: epoch: 332, train_loss: 0.101167, train_accuracy: 0.9665
+[04/06 09:45:21]: Epoch Test: 332, Current test accuracy: 0.8707, Best test accuracy in 316: 0.8831
+[04/06 09:45:33]: epoch: 333, train_loss: 0.098501, train_accuracy: 0.9659
+[04/06 09:45:33]: Epoch Test: 333, Current test accuracy: 0.8809, Best test accuracy in 316: 0.8831
+[04/06 09:45:45]: epoch: 334, train_loss: 0.097542, train_accuracy: 0.9664
+[04/06 09:45:46]: Epoch Test: 334, Current test accuracy: 0.8787, Best test accuracy in 316: 0.8831
+[04/06 09:45:57]: epoch: 335, train_loss: 0.102648, train_accuracy: 0.9654
+[04/06 09:45:58]: Epoch Test: 335, Current test accuracy: 0.8833, Best test accuracy in 335: 0.8833
+[04/06 09:46:10]: epoch: 336, train_loss: 0.097514, train_accuracy: 0.9669
+[04/06 09:46:10]: Epoch Test: 336, Current test accuracy: 0.8833, Best test accuracy in 335: 0.8833
+[04/06 09:46:22]: epoch: 337, train_loss: 0.098254, train_accuracy: 0.9664
+[04/06 09:46:23]: Epoch Test: 337, Current test accuracy: 0.8712, Best test accuracy in 335: 0.8833
+[04/06 09:46:34]: epoch: 338, train_loss: 0.094441, train_accuracy: 0.9686
+[04/06 09:46:35]: Epoch Test: 338, Current test accuracy: 0.8817, Best test accuracy in 335: 0.8833
+[04/06 09:46:46]: epoch: 339, train_loss: 0.096096, train_accuracy: 0.9685
+[04/06 09:46:47]: Epoch Test: 339, Current test accuracy: 0.8788, Best test accuracy in 335: 0.8833
+[04/06 09:46:59]: epoch: 340, train_loss: 0.096046, train_accuracy: 0.9672
+[04/06 09:46:59]: Epoch Test: 340, Current test accuracy: 0.8802, Best test accuracy in 335: 0.8833
+[04/06 09:47:11]: epoch: 341, train_loss: 0.099892, train_accuracy: 0.9667
+[04/06 09:47:12]: Epoch Test: 341, Current test accuracy: 0.8821, Best test accuracy in 335: 0.8833
+[04/06 09:47:23]: epoch: 342, train_loss: 0.097622, train_accuracy: 0.9667
+[04/06 09:47:24]: Epoch Test: 342, Current test accuracy: 0.8770, Best test accuracy in 335: 0.8833
+[04/06 09:47:35]: epoch: 343, train_loss: 0.100763, train_accuracy: 0.9662
+[04/06 09:47:36]: Epoch Test: 343, Current test accuracy: 0.8806, Best test accuracy in 335: 0.8833
+[04/06 09:47:48]: epoch: 344, train_loss: 0.103452, train_accuracy: 0.9661
+[04/06 09:47:49]: Epoch Test: 344, Current test accuracy: 0.8775, Best test accuracy in 335: 0.8833
+[04/06 09:48:00]: epoch: 345, train_loss: 0.096585, train_accuracy: 0.9677
+[04/06 09:48:01]: Epoch Test: 345, Current test accuracy: 0.8814, Best test accuracy in 335: 0.8833
+[04/06 09:48:12]: epoch: 346, train_loss: 0.097713, train_accuracy: 0.9673
+[04/06 09:48:13]: Epoch Test: 346, Current test accuracy: 0.8726, Best test accuracy in 335: 0.8833
+[04/06 09:48:24]: epoch: 347, train_loss: 0.094058, train_accuracy: 0.9692
+[04/06 09:48:25]: Epoch Test: 347, Current test accuracy: 0.8800, Best test accuracy in 335: 0.8833
+[04/06 09:48:37]: epoch: 348, train_loss: 0.097793, train_accuracy: 0.9669
+[04/06 09:48:37]: Epoch Test: 348, Current test accuracy: 0.8713, Best test accuracy in 335: 0.8833
+[04/06 09:48:49]: epoch: 349, train_loss: 0.096474, train_accuracy: 0.9681
+[04/06 09:48:50]: Epoch Test: 349, Current test accuracy: 0.8766, Best test accuracy in 335: 0.8833
+[04/06 09:49:01]: epoch: 350, train_loss: 0.093527, train_accuracy: 0.9690
+[04/06 09:49:02]: Epoch Test: 350, Current test accuracy: 0.8774, Best test accuracy in 335: 0.8833
+[04/06 09:49:14]: epoch: 351, train_loss: 0.090286, train_accuracy: 0.9691
+[04/06 09:49:14]: Epoch Test: 351, Current test accuracy: 0.8730, Best test accuracy in 335: 0.8833
+[04/06 09:49:26]: epoch: 352, train_loss: 0.096786, train_accuracy: 0.9665
+[04/06 09:49:27]: Epoch Test: 352, Current test accuracy: 0.8725, Best test accuracy in 335: 0.8833
+[04/06 09:49:38]: epoch: 353, train_loss: 0.096816, train_accuracy: 0.9677
+[04/06 09:49:39]: Epoch Test: 353, Current test accuracy: 0.8611, Best test accuracy in 335: 0.8833
+[04/06 09:49:50]: epoch: 354, train_loss: 0.096911, train_accuracy: 0.9676
+[04/06 09:49:51]: Epoch Test: 354, Current test accuracy: 0.8840, Best test accuracy in 354: 0.8840
+[04/06 09:50:03]: epoch: 355, train_loss: 0.096499, train_accuracy: 0.9666
+[04/06 09:50:03]: Epoch Test: 355, Current test accuracy: 0.8755, Best test accuracy in 354: 0.8840
+[04/06 09:50:15]: epoch: 356, train_loss: 0.092768, train_accuracy: 0.9688
+[04/06 09:50:16]: Epoch Test: 356, Current test accuracy: 0.8802, Best test accuracy in 354: 0.8840
+[04/06 09:50:27]: epoch: 357, train_loss: 0.091467, train_accuracy: 0.9690
+[04/06 09:50:28]: Epoch Test: 357, Current test accuracy: 0.8718, Best test accuracy in 354: 0.8840
+[04/06 09:50:39]: epoch: 358, train_loss: 0.095407, train_accuracy: 0.9671
+[04/06 09:50:40]: Epoch Test: 358, Current test accuracy: 0.8792, Best test accuracy in 354: 0.8840
+[04/06 09:50:52]: epoch: 359, train_loss: 0.091457, train_accuracy: 0.9683
+[04/06 09:50:52]: Epoch Test: 359, Current test accuracy: 0.8832, Best test accuracy in 354: 0.8840
+[04/06 09:51:04]: epoch: 360, train_loss: 0.089781, train_accuracy: 0.9691
+[04/06 09:51:05]: Epoch Test: 360, Current test accuracy: 0.8811, Best test accuracy in 354: 0.8840
+[04/06 09:51:16]: epoch: 361, train_loss: 0.090375, train_accuracy: 0.9689
+[04/06 09:51:17]: Epoch Test: 361, Current test accuracy: 0.8807, Best test accuracy in 354: 0.8840
+[04/06 09:51:28]: epoch: 362, train_loss: 0.091082, train_accuracy: 0.9691
+[04/06 09:51:29]: Epoch Test: 362, Current test accuracy: 0.8744, Best test accuracy in 354: 0.8840
+[04/06 09:51:41]: epoch: 363, train_loss: 0.089952, train_accuracy: 0.9705
+[04/06 09:51:41]: Epoch Test: 363, Current test accuracy: 0.8680, Best test accuracy in 354: 0.8840
+[04/06 09:51:53]: epoch: 364, train_loss: 0.091321, train_accuracy: 0.9695
+[04/06 09:51:54]: Epoch Test: 364, Current test accuracy: 0.8789, Best test accuracy in 354: 0.8840
+[04/06 09:52:05]: epoch: 365, train_loss: 0.098405, train_accuracy: 0.9665
+[04/06 09:52:06]: Epoch Test: 365, Current test accuracy: 0.8731, Best test accuracy in 354: 0.8840
+[04/06 09:52:17]: epoch: 366, train_loss: 0.096055, train_accuracy: 0.9680
+[04/06 09:52:18]: Epoch Test: 366, Current test accuracy: 0.8776, Best test accuracy in 354: 0.8840
+[04/06 09:52:30]: epoch: 367, train_loss: 0.088998, train_accuracy: 0.9705
+[04/06 09:52:30]: Epoch Test: 367, Current test accuracy: 0.8720, Best test accuracy in 354: 0.8840
+[04/06 09:52:42]: epoch: 368, train_loss: 0.089032, train_accuracy: 0.9698
+[04/06 09:52:42]: Epoch Test: 368, Current test accuracy: 0.8761, Best test accuracy in 354: 0.8840
+[04/06 09:52:54]: epoch: 369, train_loss: 0.089960, train_accuracy: 0.9700
+[04/06 09:52:55]: Epoch Test: 369, Current test accuracy: 0.8732, Best test accuracy in 354: 0.8840
+[04/06 09:53:06]: epoch: 370, train_loss: 0.100289, train_accuracy: 0.9662
+[04/06 09:53:07]: Epoch Test: 370, Current test accuracy: 0.8762, Best test accuracy in 354: 0.8840
+[04/06 09:53:18]: epoch: 371, train_loss: 0.090124, train_accuracy: 0.9698
+[04/06 09:53:19]: Epoch Test: 371, Current test accuracy: 0.8759, Best test accuracy in 354: 0.8840
+[04/06 09:53:30]: epoch: 372, train_loss: 0.091728, train_accuracy: 0.9697
+[04/06 09:53:31]: Epoch Test: 372, Current test accuracy: 0.8759, Best test accuracy in 354: 0.8840
+[04/06 09:53:43]: epoch: 373, train_loss: 0.087469, train_accuracy: 0.9699
+[04/06 09:53:43]: Epoch Test: 373, Current test accuracy: 0.8747, Best test accuracy in 354: 0.8840
+[04/06 09:53:55]: epoch: 374, train_loss: 0.087963, train_accuracy: 0.9704
+[04/06 09:53:56]: Epoch Test: 374, Current test accuracy: 0.8837, Best test accuracy in 354: 0.8840
+[04/06 09:54:07]: epoch: 375, train_loss: 0.085188, train_accuracy: 0.9716
+[04/06 09:54:08]: Epoch Test: 375, Current test accuracy: 0.8748, Best test accuracy in 354: 0.8840
+[04/06 09:54:19]: epoch: 376, train_loss: 0.089384, train_accuracy: 0.9701
+[04/06 09:54:20]: Epoch Test: 376, Current test accuracy: 0.8774, Best test accuracy in 354: 0.8840
+[04/06 09:54:31]: epoch: 377, train_loss: 0.092030, train_accuracy: 0.9690
+[04/06 09:54:32]: Epoch Test: 377, Current test accuracy: 0.8854, Best test accuracy in 377: 0.8854
+[04/06 09:54:44]: epoch: 378, train_loss: 0.098117, train_accuracy: 0.9674
+[04/06 09:54:44]: Epoch Test: 378, Current test accuracy: 0.8672, Best test accuracy in 377: 0.8854
+[04/06 09:54:56]: epoch: 379, train_loss: 0.084142, train_accuracy: 0.9719
+[04/06 09:54:57]: Epoch Test: 379, Current test accuracy: 0.8753, Best test accuracy in 377: 0.8854
+[04/06 09:55:08]: epoch: 380, train_loss: 0.083415, train_accuracy: 0.9721
+[04/06 09:55:09]: Epoch Test: 380, Current test accuracy: 0.8802, Best test accuracy in 377: 0.8854
+[04/06 09:55:20]: epoch: 381, train_loss: 0.092041, train_accuracy: 0.9689
+[04/06 09:55:21]: Epoch Test: 381, Current test accuracy: 0.8795, Best test accuracy in 377: 0.8854
+[04/06 09:55:32]: epoch: 382, train_loss: 0.085577, train_accuracy: 0.9709
+[04/06 09:55:33]: Epoch Test: 382, Current test accuracy: 0.8734, Best test accuracy in 377: 0.8854
+[04/06 09:55:45]: epoch: 383, train_loss: 0.089134, train_accuracy: 0.9701
+[04/06 09:55:45]: Epoch Test: 383, Current test accuracy: 0.8774, Best test accuracy in 377: 0.8854
+[04/06 09:55:57]: epoch: 384, train_loss: 0.083950, train_accuracy: 0.9721
+[04/06 09:55:58]: Epoch Test: 384, Current test accuracy: 0.8757, Best test accuracy in 377: 0.8854
+[04/06 09:56:09]: epoch: 385, train_loss: 0.090567, train_accuracy: 0.9691
+[04/06 09:56:10]: Epoch Test: 385, Current test accuracy: 0.8740, Best test accuracy in 377: 0.8854
+[04/06 09:56:21]: epoch: 386, train_loss: 0.088218, train_accuracy: 0.9707
+[04/06 09:56:22]: Epoch Test: 386, Current test accuracy: 0.8759, Best test accuracy in 377: 0.8854
+[04/06 09:56:34]: epoch: 387, train_loss: 0.091625, train_accuracy: 0.9692
+[04/06 09:56:34]: Epoch Test: 387, Current test accuracy: 0.8714, Best test accuracy in 377: 0.8854
+[04/06 09:56:46]: epoch: 388, train_loss: 0.086462, train_accuracy: 0.9707
+[04/06 09:56:46]: Epoch Test: 388, Current test accuracy: 0.8762, Best test accuracy in 377: 0.8854
+[04/06 09:56:58]: epoch: 389, train_loss: 0.089528, train_accuracy: 0.9708
+[04/06 09:56:59]: Epoch Test: 389, Current test accuracy: 0.8763, Best test accuracy in 377: 0.8854
+[04/06 09:57:10]: epoch: 390, train_loss: 0.087593, train_accuracy: 0.9707
+[04/06 09:57:11]: Epoch Test: 390, Current test accuracy: 0.8763, Best test accuracy in 377: 0.8854
+[04/06 09:57:23]: epoch: 391, train_loss: 0.083758, train_accuracy: 0.9714
+[04/06 09:57:23]: Epoch Test: 391, Current test accuracy: 0.8797, Best test accuracy in 377: 0.8854
+[04/06 09:57:35]: epoch: 392, train_loss: 0.082828, train_accuracy: 0.9718
+[04/06 09:57:36]: Epoch Test: 392, Current test accuracy: 0.8744, Best test accuracy in 377: 0.8854
+[04/06 09:57:47]: epoch: 393, train_loss: 0.086083, train_accuracy: 0.9710
+[04/06 09:57:48]: Epoch Test: 393, Current test accuracy: 0.8819, Best test accuracy in 377: 0.8854
+[04/06 09:57:59]: epoch: 394, train_loss: 0.084070, train_accuracy: 0.9717
+[04/06 09:58:00]: Epoch Test: 394, Current test accuracy: 0.8522, Best test accuracy in 377: 0.8854
+[04/06 09:58:12]: epoch: 395, train_loss: 0.086572, train_accuracy: 0.9705
+[04/06 09:58:13]: Epoch Test: 395, Current test accuracy: 0.8794, Best test accuracy in 377: 0.8854
+[04/06 09:58:24]: epoch: 396, train_loss: 0.087784, train_accuracy: 0.9707
+[04/06 09:58:25]: Epoch Test: 396, Current test accuracy: 0.8776, Best test accuracy in 377: 0.8854
+[04/06 09:58:36]: epoch: 397, train_loss: 0.081769, train_accuracy: 0.9726
+[04/06 09:58:37]: Epoch Test: 397, Current test accuracy: 0.8809, Best test accuracy in 377: 0.8854
+[04/06 09:58:49]: epoch: 398, train_loss: 0.088434, train_accuracy: 0.9707
+[04/06 09:58:49]: Epoch Test: 398, Current test accuracy: 0.8774, Best test accuracy in 377: 0.8854
+[04/06 09:59:01]: epoch: 399, train_loss: 0.084996, train_accuracy: 0.9720
+[04/06 09:59:02]: Epoch Test: 399, Current test accuracy: 0.8788, Best test accuracy in 377: 0.8854
+[04/06 09:59:13]: epoch: 400, train_loss: 0.085291, train_accuracy: 0.9713
+[04/06 09:59:14]: Epoch Test: 400, Current test accuracy: 0.8783, Best test accuracy in 377: 0.8854

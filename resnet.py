@@ -1,8 +1,11 @@
 # coding: utf-8
+import argparse
 
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
+
+from torchsummary import summary
 
 
 def initialize_weights(module):
@@ -194,3 +197,19 @@ class Network(nn.Module):
         x = x.view(x.size(0), -1)
         x = self.fc(x)
         return x
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--block_type', type=str, default='basic')
+    parser.add_argument('--depths', type=int, default=38)
+    parser.add_argument('--base_channels', type=int, default=16)
+    parser.add_argument('--n_classes', type=int, default=10)
+    parser.add_argument('--input_shape', type=tuple, default=[1, 3, 32, 32])
+    opts = parser.parse_args()
+
+    device = ('cuda' if torch.cuda.is_available() else 'cpu')
+    model = Network(opts)
+    model.to(device)
+    summary_model = summary(model, input_size=(3, 32, 32))
+    print(summary_model)
